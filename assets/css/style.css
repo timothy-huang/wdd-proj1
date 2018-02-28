@@ -1,0 +1,151 @@
+/** Positioning styles */
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    justify-content: center;
+}
+
+.flex-vertical-centered {
+    align-items: center;
+}
+
+.flex-left {
+    justify-content: flex-start;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+/** Other styles */
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: #846BAA;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.letters-container {
+    width: 700px;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.social-media-container {
+    position: fixed;
+    top: 30%;
+    width: 50px;
+    height: 175px;
+    background-color: #DFD2F4;
+}
+
+.search-container {
+    position: absolute;
+    right: 30px;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #B59DE1;
+    width: 270px;
+    height: 30px;
+}
+
+.search-box input {
+    width: 180px;
+    height: 25px;
+}
+
+.search-button {
+    width: 85px;
+    height: 30px;
+    background-color: #5b3b8c;
+}
+
+.search-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: none;
+    margin-right: 5px;
+}
+
+#search-link {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#submit-button {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #28ccac;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#soundtracks-button {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #846BAA;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section-separator {
+    height: 60px;
+}
+
+.trending-container {
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #301a51;
+}
