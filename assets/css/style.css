@@ -37,6 +37,7 @@ body {
 #logo {
     width: 35px;
     height: 35px;
+    margin-top: 2px;
     margin-left: 30px;
     margin-right: 5px;
 }
@@ -51,12 +52,26 @@ body {
     text-decoration: none;
 }
 
+.nav-item:hover {
+    opacity: .8;
+}
+
 .social-media-container {
     position: fixed;
     top: 30%;
     width: 50px;
     height: 175px;
     background-color: #DFD2F4;
+    flex-direction: column;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon:hover {
+    opacity: .8;
 }
 
 .search-container {
@@ -79,6 +94,10 @@ body {
     width: 85px;
     height: 30px;
     background-color: #5b3b8c;
+}
+
+.search-button:hover {
+    opacity: .9;
 }
 
 .search-icon {
@@ -125,6 +144,10 @@ body {
     text-decoration: none;
 }
 
+#submit-button:hover {
+    opacity: .8;
+}
+
 #soundtracks-button {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
@@ -139,13 +162,69 @@ body {
     text-decoration: none;
 }
 
+#soundtracks-button:hover {
+    opacity: .8;
+}
+
 .section-separator {
     height: 60px;
 }
 
 .trending-container {
-    width: 80%;
-    height: 350px;
+    width: 70%;
+    height: 325px;
     margin: 0 auto;
     background-color: #301a51;
+    position: relative;
+}
+
+#trending-header {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+}
+
+.album-container {
+    position: absolute;
+    top: 23%;
+    width: 85%;
+}
+
+.album {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.album-cover {
+    width: 150px;
+    height: 150px;
+}
+
+.album-cover:hover {
+    opacity: .8;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.arrow:hover {
+    opacity: .8;
+}
+
+#right-arrow {
+    position: absolute;
+    top: 39%;
+    right: 2%;
+}
+
+#left-arrow {
+    position: absolute;
+    top: 39%;
+    left: 2%;
 }
